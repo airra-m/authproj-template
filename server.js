@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const path = require("path");
 
+// Import your routes here
 const home = require("./routes/home");
 
 const app = express();
