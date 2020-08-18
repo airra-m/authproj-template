@@ -41,4 +41,6 @@ All frontend files are in the `client` directory. All backend files are outside 
 - The `src` directory will have the `App.js` file where you can import your custom components and `App.css` where you can put write your own CSS in
 - There are extra directories within `src` which are for Redux:- `actions`, `reducers`, and `utils` as well as the `store.js` file
 
-**For further details on what each dependency is for and what exactly the code is doing, or if you want to write this from scratch instead, please read Rishi Prasad's detailed blog post [here](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669). It is a 3-part blog post that contains all the instructions of creating a sign in/register authentication project (which is where this code is from).**
+## Run `npm run dev` to get the server as well as React running (courtesy of concurrently)
+
+For further details on what each dependency is for and what exactly the code is doing, or if you want to write this from scratch instead, please read Rishi Prasad's detailed blog post [here](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669). It is a 3-part blog post that contains all the instructions of creating a sign in/register authentication project (which is where this code is from).
